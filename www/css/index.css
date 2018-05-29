@@ -113,3 +113,27 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+
+.header {
+    background-color: crimson;
+    position: fixed;
+    width: 100%;
+    height: 50%;
+}
+
+.slider {
+    background-color: darkgray;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    top: 50%;
+}
+
+.footer {
+    background-color: greenyellow;
+    position: fixed;
+    width: 100%;
+    height: -webkit-fill-available;
+    top: 55%;
+}
